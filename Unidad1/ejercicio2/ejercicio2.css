@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Navegador */
+  nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Contenedor principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Sección de contenido */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Tabla de hamburguesas */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table caption {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Receta */
+  h1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  
+  ul, ol {
+    margin-left: 20px;
+  }
+  
+  /* Barra lateral */
+  aside {
+    background-color: #eee;
+    padding: 20px;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  img {
+    width: 200px; /* Ancho deseado */
+    height: 150px; /* Alto deseado */
+  }
