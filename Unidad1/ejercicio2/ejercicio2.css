@@ -98,3 +98,31 @@ body {
     width: 200px; /* Ancho deseado */
     height: 150px; /* Alto deseado */
   }
+
+  fieldset {
+    border: 2px solid #01101a;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgb(224, 224, 224);
+}
+
+/* Estilo para el título del fieldset (legend) */
+legend {
+    font-weight: bold;
+    color: #01101a;
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #3498db; /* Color de fondo para los botones */
+  color: #fff; /* Color del texto para los botones */
+}

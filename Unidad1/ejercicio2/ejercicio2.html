@@ -54,25 +54,42 @@
         </section>
 
         <section>
-            <form action="https://www.lingscars.com/" name="formulario">
+            <form action="https://www.lingscars.com/" name="formulario" method="POST">
                 <fieldset>
                     <legend>FORMULARIO!</legend>
                     <p><label>Nombre:  </label><input type="text" id="name" name="user_name"></p>
                     <p><label>de que Color es usted:  </label><input type="color" id="color" name="color"></p>
                         <label>Escriba una descripcion de usted:</label>
                         <p><textarea type="text-area" id="text-area" name="area" cols="60" rows="10"></textarea></p>
-                    <p><label>Numero:  </label><input type="number" id="number"></p>
+                    <p><label>Numero:  </label><input type="number" id="number" max="80"></p>
                     <p><label>Telefono:  </label><input type="tel" id="tel"></p>
-                    <p><label>Email:  </label><input type="email" id="email"></p>
+                    <p><label>Email:  </label><input type="email" id="email" required></p>
                     <p><label>Archivo:  </label><input type="file" id="file"></p>
                     <p><label>Fecha:  </label><input type="date" id="date"></p>
                     <p><label>Contraseña:  </label><input type="password" id="password"></p>
-                    <p><label>Como de guapo es usted? </label><input type="range" id="range"></p><bR>
-                    <p>Que se considera usted?</p>
-                    <label><input type="radio" name="opcion" value="opcion1">Mujer</label>
+                    <p><label>Como de guapo es usted? </label><input type="range" id="range"></p>
+                    <label>Sexo: </label>
+                    <input type="radio" name="opcion" value="opcion1"><label>Mujer</label>
                     <label><input type="radio" name="opcion" value="opcion2" checked>Hombre</label>
                     <label><input type="radio" name="opcion" value="opcion3">Otro</label>
-                    <p><input type="submit" value="enviar"> <input type="reset" value="reset"></p>
+                    <p>Estudios:</p>
+                    <select name="Estudios" name="select">
+                        <option value="ESO" name="ESO">ESO</option>
+                        <option value="Bachillerato" name="Bachillerato" selected>Bachillerato</option>
+                        <option value="FP" name="FP">FP </option>
+                    </select>
+                    <p>
+                        <label>Elige tu clase: </label>
+                        <input list="clases" name="clase" id="clase" placeholder="Escribe el nombre de la clase">
+                            <datalist id="clases">
+                                <option value="Técnico en Informática">
+                                <option value="Técnico en Electrónica">
+                                <option value="Técnico en Administración">
+                                <option value="Técnico en Enfermería">
+                                <option value="Técnico en Carpintería">
+                            </datalist>
+                    </p>
+                    <p><input type="submit" value="enviar" class="boton"> <input type="reset" value="reset" class="boton"></p>
                 </fieldset>
             </form>
         </section>
