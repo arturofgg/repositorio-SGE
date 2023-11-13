@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
         enlace.style.color = "#0078d4";
         enlace.style.fontWeight = "bold";
     });
-
+ 
     document.body.style.backgroundColor = "#f0f0f0";
 
 });
