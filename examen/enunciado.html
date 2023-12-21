@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="e.js"></script>
+		<style>
+			.imgbox {
+					float: left;
+					text-align: center;
+					width: 120px;
+					border: 1px solid gray;
+					margin: 4px;
+					padding: 6px;
+					text-align:center;
+					}
+			img, button	{
+					width:100%;
+					}	
+			footer {
+					background-color: black;
+					position: absolute;
+					bottom: 0;
+					width: 100%;
+					height: 100px;
+					color: white;
+					}
+			body{
+					text-align:center;
+				} 
+			#idadd{
+					width: 5%;
+			}				
+			.caja {
+					display: grid;
+					grid-template-columns: repeat(5, 1fr);
+					grid-gap: 10px;
+					grid-auto-rows: minmax(100px, auto);
+					}
+			#uno {
+					grid-column: 1 ;
+					grid-row: 1;
+					}
+			#dos {
+					grid-column: 2 ;
+					grid-row: 1;
+					}
+			#tres {
+					grid-column: 3;
+					grid-row: 1;
+					}
+			#cuatro {
+					grid-column: 4;
+					grid-row: 1;
+					}
+			#cinco {
+					grid-column: 5;
+					grid-row: 1;
+					}
+			#seis {
+					grid-column: 1;
+					grid-row: 2;
+					}
+			#siete {
+					grid-column: 2;
+					grid-row: 2;
+					}
+				
+			
+		</style>
+	</head>
+	<body>	
+			<h1>Black Friday!!</h1>
+			<p>Bienvenid@ a Koalate, nombre</p>
+			<p></p>
+			<div class="caja">
+						<div class="imgbox" id="uno">Koala 1 - 10€<br>
+							<img src="koala.jpg">
+							<button id="boton1">Añade a la cesta</button>
+						</div>
+						
+						<div class="imgbox" id="dos">Koala 2 - 15€<br>
+							<img src="koala2.jpg" >
+							<button id="boton2">Añade a la cesta</button>
+						</div>
+						
+						<div class="imgbox" id="tres">Koala 3 - 30€<br>
+							<img src="koala3.jpg">
+							<button id="boton3">Añade a la cesta</button>
+						</div>
+						<div class="imgbox" id="cuatro">Koala 4 - 20€<br>
+							<img src="koala4.jpg">
+							<button>Añade a la cesta</button>
+						</div>
+						<div id="seis">
+							<p>Cesta</p>
+							<img src="cesta.png" style="width:15%">
+						</div>
+						<div id="siete">						
+							
+							<p>TOTAL: </p>
+						</div>
+			</div>
+			
+			
+			<footer>
+				<p>Suscríbete!</p>	
+				Introduce tu nombre: <input type="text"> 
+				<button id="idadd">Añadir</button>
+				
+			</footer>
+	</body>
+</html>

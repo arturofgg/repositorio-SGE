@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="ANombre.js"></script>
+		<meta charset="UTF-8"/>
+		<style>
+			.imgbox {
+					float: left;
+					text-align: center;
+					width: 120px;
+					border: 1px solid gray;
+					margin: 4px;
+					padding: 6px;
+					text-align:center;
+					}
+			img, button	{
+					width:100%;
+					}	
+			footer {
+					background-color: green;
+					position: absolute;
+					bottom: 0;
+					width: 100%;
+					height: 100px;
+					color: white;
+					}
+			
+			header {
+					background-color: red;
+					bottom: 0;
+					width: 100%;
+					height: 100px;
+										}
+			
+			body{
+					text-align:center;
+			
+			} 
+			#idadd{
+					width: 5%;
+			}
+							
+			.caja {
+					display: grid;
+					grid-template-columns: repeat(5, 1fr);
+					grid-gap: 10px;
+					grid-auto-rows: minmax(100px, auto);
+					}
+			#uno {
+					grid-column: 1 ;
+					grid-row: 1;
+					
+					}
+			#dos {
+					grid-column: 2 ;
+					grid-row: 1;
+					}
+			#tres {
+					grid-column: 3;
+					grid-row: 1;
+					}
+			#cuatro {
+					grid-column: 4;
+					grid-row: 1;
+					}
+			#cinco1 {
+					grid-column: 5;
+					grid-row: 1;
+					}
+			#cinco2 {
+					grid-column: 6;
+					grid-row: 1;
+					}
+			#seis {
+					grid-column: 1;
+					grid-row: 2;
+					}
+			#siete {
+					grid-column: 2;
+					grid-row: 2;
+					}
+			#ocho {
+					grid-column: 3;
+					grid-row: 2;
+					}	
+			#nueve {
+					grid-column: 3;
+					grid-row: 3;
+					}
+			
+			
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Navidades!!</h1>
+			<p>Bienvenid@ a esta página navideña</p>
+			<p></p>
+		</header>
+		<article>
+			<div class="caja">
+						<div class="imgbox" id="uno">Decoración<br>
+							<img src="arbolito.jpg">
+							<button>Añade a love </button>
+						</div>
+						
+						<div class="imgbox" id="dos">Regalitos<br>
+							<img src="papanoel.jpg" >
+							<button>Añade a love</button>
+						</div>
+						
+						<div class="imgbox" id="tres">Fan o nada fan<br>
+							<img src="grinch.jpeg">
+							<button>No me gusta la navidad</button>
+						</div>
+					
+						<div class="imgbox" id="cuatro">Muchos gastos<br>
+							<img src="gastos.jpeg">
+							<button>Añade a hate</button>
+						</div>
+
+						<div class="imgbox" id="cinco1">Comilonas y familia<br>
+							<img src="navidad2.png">
+							<button>Añade a love o a hate</button>
+						</div>
+						
+						<div class="imgbox" id="cinco2">Viajes y frío<br>
+							<img src="navidad1.jpg">
+							<button>Añade a love o a hate</button>
+						</div>
+				
+						<div id="seis">
+							<p>Cositas de Navidad</p>
+							<img src="paquetito.jpg" style="width:15%">
+						</div>
+						<div id="siete">						
+							<p>Me gusta la Navidad por: </p>
+							
+						</div>
+						<div id="ocho">						
+							<p>No me gusta la Navidad por: </p>
+							
+						</div>
+						
+						<div id="nueve">						
+							
+							
+						</div>
+						
+			</div>
+			
+			</article>
+			<footer>
+				<p>Ahora crea tú</p>	
+				Muéstrame un árbol navideño con el siguiente número de filas: <input type="text"> 
+				<button id="idadd">Crea árbol</button>
+				
+			</footer>
+	</body>
+</html>
